@@ -1,0 +1,154 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Roboto', sans-serif;
+    background-color: #E5E5E5;
+}
+header{
+    background-color: #F0A83E;
+
+}
+.header__arriba{
+    background-color: #222222;
+    color: white;
+    font-family: Roboto;
+    font-size: 10px;
+    line-height: 12px;
+    padding: .2rem 6rem;
+    display: flex;
+    justify-content: space-between;
+}
+.header__arriba ul{
+    text-decoration: none;
+    list-style-type: none;
+    font-size: 10px;
+    line-height: 12px;
+/* identical to box height */
+
+color: #F3F3F3;
+}
+.header__abajo{
+    color: white;  
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: .7rem 5%;
+}
+.nav__links{
+    list-style: none;
+}
+.nav__links li{
+    display: inline-block;
+    padding: 0% 10px;
+
+}
+main .banner{
+    background-image: url('../img/bowl-and-pet-daities-on-green-background\ 1.png');
+    background-size: cover;
+    height: 560px;
+    width: 100%;
+
+}
+main section div h2{
+    color: #3C2313;
+    background-color: #FFFFFf;
+    border-radius: 5px;
+    position: absolute;
+    font-size: 30px;
+    width: 365px;
+    height: 54px;
+    left: 65%;
+    top: 30%;
+    text-align: center;
+    line-height: 35,16px;
+}
+main section div .banner__p1{
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 19px;
+    position: absolute;
+    width: 190px;
+    height: 19px;
+    left: 71%;
+    top: 43%;
+    text-align: center;
+}
+main section div .banner__p2{
+    position: absolute;
+    width: 141px;
+    height: 49px;
+    left: 72%;
+    top: 50%;
+    background-color: #F0A83E    ;  
+    font-family: Roboto;
+    font-size: 16px;
+    line-height: 19px; 
+    text-align: center;
+    color: #FFFFFF;
+}
+h1{
+    color: #3C2313;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 40px;
+    line-height: 47px;
+}
+.productos-destacados{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 3rem 5rem;
+}
+.productos-destacados .productos-destacados__productos{
+    display: flex;
+    flex-direction: row;
+}
+.productos-destacados__producto{
+    margin: 2rem;
+    background-color:  #FBFAF6;
+    text-align: center;
+    color: #3C2313;
+    font-size: 15px;
+    font-weight: 500;
+}
+.productos-destacados__precio{
+    color: #b8ac9b    ;
+    font-weight: 500;
+}
+
+.datos-organizacion{
+    background-color: #3C2313;
+    color: white;
+    font-size: 20px;
+}
+.datos-organizacion__dato{
+    font-size: 10px;
+    color: #8A8787;
+}
+.iconos{
+    border:5px #796559 solid;
+    background-color: #8A8787;
+    width: 67px;
+    height: 67px;
+    border-radius: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+footer{
+    background-color: #222222;
+    color: #ffffff;
+    font-size: 10px;
+    font-weight: 700;
+    text-align: center;
+
+}
