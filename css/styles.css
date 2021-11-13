@@ -44,14 +44,15 @@ color: #F3F3F3;
 }
 .nav__links li{
     display: inline-block;
-    padding: 0% 10px;
-
+    padding: 2px 10px;
 }
+
 main .banner{
     background-image: url('../img/bowl-and-pet-daities-on-green-background\ 1.png');
     background-size: cover;
     height: 560px;
     width: 100%;
+    position: relative;
 
 }
 main section div h2{
@@ -62,7 +63,7 @@ main section div h2{
     font-size: 30px;
     width: 365px;
     height: 54px;
-    left: 65%;
+    right: 10%;
     top: 30%;
     text-align: center;
     line-height: 35,16px;
@@ -76,7 +77,7 @@ main section div .banner__p1{
     position: absolute;
     width: 190px;
     height: 19px;
-    left: 71%;
+    right: 17%;
     top: 43%;
     text-align: center;
 }
@@ -84,7 +85,7 @@ main section div .banner__p2{
     position: absolute;
     width: 141px;
     height: 49px;
-    left: 72%;
+    right: 19%;
     top: 50%;
     background-color: #F0A83E    ;  
     font-family: Roboto;
@@ -92,6 +93,7 @@ main section div .banner__p2{
     line-height: 19px; 
     text-align: center;
     color: #FFFFFF;
+    border: none;
 }
 h1{
     color: #3C2313;
@@ -100,6 +102,7 @@ h1{
     font-weight: bold;
     font-size: 40px;
     line-height: 47px;
+    text-align: center;
 }
 .productos-destacados{
     display: flex;
@@ -107,9 +110,14 @@ h1{
     align-items: center;
     padding: 3rem 5rem;
 }
+.productos-destacados i{
+    font-size: 70px;
+    color: #F0A83E  ;
+}
 .productos-destacados .productos-destacados__productos{
     display: flex;
     flex-direction: row;
+    flex-wrap:wrap;
 }
 .productos-destacados__producto{
     margin: 2rem;
@@ -120,7 +128,7 @@ h1{
     font-weight: 500;
 }
 .productos-destacados__precio{
-    color: #b8ac9b    ;
+    color: #F0A83E    ;
     font-weight: 500;
 }
 
@@ -128,10 +136,22 @@ h1{
     background-color: #3C2313;
     color: white;
     font-size: 20px;
+    padding: 0 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding:2rem 3rem;
 }
 .datos-organizacion__dato{
     font-size: 10px;
     color: #8A8787;
+
+}
+.datos--organizacion__contenedor{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
 }
 .iconos{
     border:5px #796559 solid;
@@ -142,6 +162,15 @@ h1{
     display: flex;
     align-items: center;
     justify-content: center;
+    margin: 0 30px 5px;
+}
+
+.imagen{
+    width: 200px;
+}
+.datos-organizacion__texto{
+    text-align: left;
+    width: 200px;
 }
 
 footer{
